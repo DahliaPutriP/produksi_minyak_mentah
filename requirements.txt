@@ -1,5 +1,5 @@
 json
-streamlit==1.2.0
+streamlit
 pandas
 numpy
 matplotlib
