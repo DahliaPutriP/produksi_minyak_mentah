@@ -13,8 +13,8 @@ import streamlit as st
 from PIL import Image
 
 #Mengekstrak File json 
-with open("kode_negara_lengkap.json") as f:
-    dj = json.load(f)
+dj = open('kode_negara_lengkap.json',"r")
+dj = json.load(dj)
 #Mengekstrak File csv
 df = pd.read_csv("produksi_minyak_mentah.csv")
 
